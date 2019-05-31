@@ -8,7 +8,7 @@ Like Javascript's substr, but with wrapping and reversed substrings.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/supersubstr](https://www.npmjs.com/package/@pelevesque/supersubstr)
+https://www.npmjs.com/package/@pelevesque/supersubstr
 
 ## Installation
 

@@ -36,8 +36,8 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "@pelevesque/scale-number": "0.0.1",
-    "@pelevesque/wrap-number": "0.0.1",
+    "@pelevesque/scale-number": "0.0.2",
+    "@pelevesque/wrap-number": "0.0.2",
     "string-reverse": "^2.0.0"
   }
 }

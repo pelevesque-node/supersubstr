@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/supersubstr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Like Javascript's substr, but with wrapping and reversed substrings.",
   "main": "index.js",
   "engines": {

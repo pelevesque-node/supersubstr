@@ -29,10 +29,8 @@ https://www.npmjs.com/package/@pelevesque/supersubstr
 ### parameters
 
 ```js
-str        (required)  
-startIndex (optional) default = 0  
-length     (optional) default = startIndex to the string end  
-reversed   (optional) default = false  
+str     (required)
+options (optional) default = { startIndex = 0, length, reverse = false }
 ```
 
 ### examples
@@ -43,16 +41,12 @@ const supersubstr = require('@pelevesque/supersubstr')
 
 ```js
 const str = '12345'
-const startIndex = 1
-const result = supersubstr(str, startIndex)
+const result = supersubstr(str, { startIndex: 1 })
 // result === '2345'
 ```
 
 ```js
 const str = '12345'
-const startIndex = 2
-const length = 10
-const reversed = true
-const result = supersubstr(str, startIndex, length, reversed)
+const result = supersubstr(str, { startIndex: 2, length: 10, reverse: true })
 // result === '3215432154'
 ```

@@ -4,7 +4,7 @@ const wrapNumber = require('@pelevesque/wrap-number')
 const scaleNumber = require('@pelevesque/scale-number')
 const reverseString = require('string-reverse')
 
-module.exports = (str, startIndex = 0, length, reverse = false) => {
+module.exports = (str, { startIndex = 0, length, reverse = false } = {}) => {
   const lastIndex = str.length - 1
   startIndex = wrapNumber(startIndex, 0, lastIndex)
   if (reverse) {

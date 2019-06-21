@@ -26,14 +26,14 @@ https://www.npmjs.com/package/@pelevesque/supersubstr
 
 ## Usage
 
-### parameters
+### Parameters
 
 ```js
 str     (required)
 options (optional) default = { startIndex = 0, length, reverse = false }
 ```
 
-### examples
+### Examples
 
 ```js
 const supersubstr = require('@pelevesque/supersubstr')
